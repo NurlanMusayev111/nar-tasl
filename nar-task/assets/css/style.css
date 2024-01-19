@@ -1,0 +1,1674 @@
+.navbar-up{
+    height: 54px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#body{
+    background-color: rgb(236, 236, 236);
+}
+
+.navbar-up-left{
+    height: 54px;
+    /* border: 1px solid red; */
+    display: flex;
+}   
+
+.navbar-up-right{
+    height: 54px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.nv-up-left-one{
+    height: 38px;
+    width: 100px;
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: #d5375c;
+    border: none;
+    border-radius: 30px;
+}
+
+.nv-up-left-two{
+    height: 38px;
+    width: 100px;
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.nv-left-border{
+    height: 25px;
+    width: 2px;
+    border-radius: 20px;
+    margin-top: 13px;
+    background-color: gray;
+}
+
+.nv-up-left-three{
+    height: 38px;
+    width: 130px;
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+
+.nv-right-ques{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left: 200px;
+    border: 1px solid #d5375c;
+}
+
+.nv-right-ques i{
+    color: #d5375c;
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+.nv-right-mode{
+    height: 40px;
+    width: 68px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 14px;
+    border: 1px solid #d5375c;
+    display: flex;
+}
+
+.mode-sun{
+    height: 31px;
+    width: 31px;
+    background: #d5375c;
+    border-radius: 20px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.mode-sun i{
+    color: white;
+    padding-top: 8px;
+    padding-left: 7px;
+}
+
+.mode-dark{
+    height: 31px;
+    width: 31px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    margin-top: 4px;
+}
+
+.mode-dark i{
+    color: black;
+    padding-top: 8px;
+    padding-left: 7px;
+    font-size: 18px;
+}
+
+
+.nv-right-lang{
+    height: 40px;
+    width: 45px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid #d5375c;
+}
+
+.nv-right-lang h6{
+    color: #d5375c;
+    padding-top: 8.5px;
+    padding-left: 7px;
+}
+
+
+
+#slide{
+    height: 450px;
+    background: url(../img/connect-eSIM-desktop.png);
+    background-position: right;
+}
+
+
+.slide-nav-left{
+    height: 65px;
+    /* border: 1px solid black; */
+}
+
+.slide-nav-left img{
+    height: 80px;
+    width: 80px;
+    
+}
+
+.slide-nav-left ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.slide-nav-left ul li{
+    color: white;
+    font-family: 'ALSSchlangesans',sans-serif;
+    margin: 0px 25px;
+}
+
+
+.slide-nav-right{
+    height: 65px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.slide-nav-right i{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: white;
+    padding-top: 13px;
+    padding-left: 12px;
+    color: #d5375c;
+    margin-top: 13px;
+}
+
+.more{
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    position: absolute;
+    top: 20%;
+    font-family: 'ALSSchlangesans',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.more i{
+    color: #d5375c;
+}
+
+
+.slide-info{
+    height: 370px;
+    /* border: 1px solid black; */
+}
+
+.slide-info h1{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 40px;
+}
+
+.slide-info h6{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+}
+
+
+.slide-info-more{
+    height: 50px;
+    width: 145px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    margin-top: 30px;
+    color: #d5375c;
+    font-weight: 650;
+    transition: all 0.3s ease;
+}
+
+
+.slide-info-more:hover{
+    color: black;
+}
+
+
+.slide-img{
+    /* border: 1px solid black; */
+    height: 385px;
+    background: url(../img/image_\ \(2\).png);
+}
+
+
+#nar-packet{
+    height: 700px;
+    /*   */
+    background-color: rgb(236, 236, 236);
+}
+
+
+.nar-packet-header{
+    height: 50px;
+    width: 550px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+}
+
+.nar-packet-header h1{
+    font-weight: 700;
+    font-family: 'ALSSchlangesans',sans-serif;
+}
+
+
+
+.nar-packet-left{
+    height: 520px;
+    width: 400px;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease;
+    background-color: white;
+}
+
+.nar-packet-left:hover{
+    box-shadow: 0px 0px 10px gray;
+    bottom: 3%;
+    
+}
+.nar-packet-middle{
+    height: 520px;
+    width: 400px;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    border-radius: 25px;
+    position: relative;
+    transition: all 0.5s ease;
+    background-color: white;
+
+}
+
+.nar-packet-middle:hover{
+    box-shadow: 0px 0px 10px gray;
+    bottom: 3%;
+    
+}
+
+.nar-packet-right{
+    height: 520px;
+    width: 400px;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    border-radius: 25px;
+    position: relative;
+    transition: all 0.5s ease;
+    background-color: white;
+
+}
+
+
+.nar-packet-right:hover{
+    box-shadow: 0px 0px 10px gray;
+    bottom: 3%;
+    
+}
+
+.packet-left-img{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background: url(../img/connect-eSIM-desktop.png);
+    background-position: center;
+}
+
+
+.packet-left-img img{
+    height: 120px;
+    width: 120px;
+}
+
+.packet-left-img h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.packet-left-img-price{
+    height: 55px;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 24px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+}
+
+.packet-left-img-price h3{
+    color: white;
+    margin-top: 8px;
+    margin-left: 12px;
+    font-weight: 700;
+    display: inline;
+}
+
+.packet-left-img-price h4{
+    display: inline;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.packet-left-img-price h5{
+    color: white;
+    font-size: 14px;
+    margin-top: 27px;
+    margin-left: -13px;
+}
+
+
+.packet-left-call{
+    height: 60px;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 9px;
+    /* border: 1px solid black; */
+}
+
+.packet-left-call i{
+    color: rgb(100, 100, 100);
+}
+
+.packet-left-call h6{
+    display: inline;
+    margin-left: 10px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.packet-left-call h4{
+    display: inline;
+    margin-left: 100px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.progress{
+    background-color: rgb(255, 182, 193);
+    height: 4px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.progress-bar{
+    background-color: #d5375c;
+}
+
+
+
+.packet-left-internet{
+    height: 60px;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 9px;
+    /* border: 1px solid black; */
+}
+
+.packet-left-internet i{
+    color: rgb(100, 100, 100);
+}
+
+.packet-left-internet h6{
+    display: inline;
+    margin-left: 10px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.packet-left-internet h4{
+    display: inline;
+    margin-left: 180px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.packet-left-change{
+    height: 45px;
+    width: 380px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.packet-left-change i{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-size: 20px;
+    color: #d5375c;
+}
+
+.packet-left-change h4{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    margin-left: 8px;
+}
+
+.packet-left-bonus{
+    height: 45px;
+    width: 380px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+.packet-left-bonus i{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-size: 20px;
+    color: #d5375c;
+}
+
+.packet-left-bonus h4{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    margin-left: 8px;
+}
+
+
+.left-button{
+    height: 48px;
+    width: 350px;
+    border: none;
+    background-color: white;
+    border: 1px solid #d5375c;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: #d5375c  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.packet-middle-img{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background: url(../img/connect-eSIM-desktop.png);
+    background-position: center;
+    cursor: pointer;
+}
+
+.packet-middle-img
+
+.packet-middle-img img{
+    height: 120px;
+    width: 120px;
+}
+
+.packet-middle-img h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.packet-middle-img-price{
+    height: 55px;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 24px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+}
+
+.packet-middle-img-price h3{
+    color: white;
+    margin-top: 8px;
+    margin-left: 12px;
+    font-weight: 700;
+    display: inline;
+}
+
+.packet-middle-img-price h4{
+    display: inline;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.packet-middle-img-price h5{
+    color: white;
+    font-size: 14px;
+    margin-top: 27px;
+    margin-left: -13px;
+}
+
+
+.packet-middle-call{
+    height: 60px;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 9px;
+    /* border: 1px solid black; */
+}
+
+.packet-middle-call i{
+    color: rgb(100, 100, 100);
+}
+
+.packet-middle-call h6{
+    display: inline;
+    margin-left: 10px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.packet-middle-call h4{
+    display: inline;
+    margin-left: 100px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.progress{
+    background-color: rgb(255, 182, 193);
+    height: 4px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.progress-bar{
+    background-color: #d5375c;
+}
+
+
+
+.packet-middle-internet{
+    height: 60px;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 9px;
+    /* border: 1px solid black; */
+}
+
+.packet-middle-internet i{
+    color: rgb(100, 100, 100);
+}
+
+.packet-middle-internet h6{
+    display: inline;
+    margin-left: 10px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.packet-middle-internet h4{
+    display: inline;
+    margin-left: 180px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.packet-middle-change{
+    height: 45px;
+    width: 380px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.packet-middle-change i{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-size: 20px;
+    color: #d5375c;
+}
+
+.packet-middle-change h4{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    margin-left: 8px;
+}
+
+.packet-middle-bonus{
+    height: 45px;
+    width: 380px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+.packet-middle-bonus i{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-size: 20px;
+    color: #d5375c;
+}
+
+.packet-middle-bonus h4{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    margin-left: 8px;
+}
+
+
+.middle-button{
+    height: 48px;
+    width: 350px;
+    border: none;
+    background-color: white;
+    border: 1px solid #d5375c;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: #d5375c  ;
+}
+
+
+
+
+
+
+
+
+
+.packet-right-img{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background: url(../img/connect-eSIM-desktop.png);
+    background-position: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.packet-middle-img
+
+.packet-right-img img{
+    height: 120px;
+    width: 120px;
+}
+
+.packet-right-img h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.packet-right-img-price{
+    height: 55px;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 24px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+}
+
+.packet-right-img-price h3{
+    color: white;
+    margin-top: 8px;
+    margin-left: 12px;
+    font-weight: 700;
+    display: inline;
+}
+
+.packet-right-img-price h4{
+    display: inline;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.packet-right-img-price h5{
+    color: white;
+    font-size: 14px;
+    margin-top: 27px;
+    margin-left: -13px;
+}
+
+
+.packet-right-call{
+    height: 60px;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 9px;
+    /* border: 1px solid black; */
+}
+
+.packet-right-call i{
+    color: rgb(100, 100, 100);
+}
+
+.packet-right-call h6{
+    display: inline;
+    margin-left: 10px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.packet-right-call h4{
+    display: inline;
+    margin-left: 100px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.progress{
+    background-color: rgb(255, 182, 193);
+    height: 4px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.progress-bar{
+    background-color: #d5375c;
+}
+
+
+
+.packet-right-internet{
+    height: 60px;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 9px;
+    /* border: 1px solid black; */
+}
+
+.packet-right-internet i{
+    color: rgb(100, 100, 100);
+}
+
+.packet-right-internet h6{
+    display: inline;
+    margin-left: 10px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+.packet-right-internet h4{
+    display: inline;
+    margin-left: 180px;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.packet-right-change{
+    height: 45px;
+    width: 380px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.packet-right-change i{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-size: 20px;
+    color: #d5375c;
+}
+
+.packet-right-change h4{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    margin-left: 8px;
+}
+
+.packet-right-bonus{
+    height: 45px;
+    width: 380px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+.packet-right-bonus i{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-size: 20px;
+    color: #d5375c;
+}
+
+
+
+.right-button{
+    height: 48px;
+    width: 350px;
+    border: none;
+    background-color: white;
+    border: 1px solid #d5375c;
+    border-radius: 15px;
+    margin-top: 86px;
+    margin-left: 20px;
+    color: #d5375c  ;
+}
+
+
+
+
+
+#balance{
+    height: 550px;
+    border: 1px solid greenyellow;
+    background-color: rgb(236, 236, 236);
+}
+
+
+.balance-left{
+    height: 480px;
+    width: 550px;
+    margin-top: 35px;
+    border-radius: 24px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.balance-left-header{
+    margin-top: 20px;
+    margin-left: 25px;
+    display: flex;   
+}
+
+.balance-left-header h2{
+    font-weight: 700;
+}
+
+
+
+
+.balance-left-phone{
+    height: 85px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+.balance-left-phone h6{
+    color: gray;
+    margin-left: 25px;
+}
+
+.phone-area{
+    height: 50px;
+    margin-left: 25px;
+    width: 510px;
+    border-radius: 22px;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+
+
+.balance-left-price{
+    height: 85px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+.balance-left-price h6{
+    color: gray;
+    margin-left: 25px;
+}
+
+.price-area{
+    height: 50px;
+    margin-left: 25px;
+    width: 510px;
+    border-radius: 22px;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+
+
+
+.balance-left-btn{
+    height: 57px;
+    width: 140px;
+    border-radius: 25px;
+    background-color: #d5375c;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+
+.balance-right{
+    height: 480px;
+    width: 550px;
+    margin-top: 35px;
+    border-radius: 24px;
+    background-color: white;
+    /* border: 1px solid black; */
+    background-image: url(../img/connect-eSIM-desktop.png);
+    background-position: center;
+}
+
+
+.balance-right-header{
+    margin-top: 20px;
+    margin-left: 25px;
+    display: flex;
+}
+
+.balance-right-header h2{
+    color: white;
+    font-weight: 700;
+}
+
+
+.balace-right-select{
+    height: 70px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.right-select-btn{
+    background: none;
+    height: 55px;
+    width: 80px;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+
+
+.balance-right-nar-num{
+    height: 70px;
+    width: 510px;
+    background-color: white;
+    margin-top: 90px;
+    margin-left: 19px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.fa-angle-left{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: #d5375c;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    margin-left: 10px;
+    top: 10%;
+    border: 1px solid #d5375c;
+}
+
+.fa-angle-right{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: #d5375c;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    left: 87.3%;
+    top: 10%;
+    border: 1px solid #d5375c;
+}
+
+
+.balance-right-nar-num h2{
+    display: flex;
+    padding-top: 14px;
+    justify-content: center;
+    color: rgb(100, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.balance-right-btn{
+    display: flex;
+}
+
+.btn-one{
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 620;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.4s ease;
+    color: #d5375c;
+    transition: all 0.4s ease;
+}
+
+.btn-two{
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 8px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-weight: 620;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.4s ease;
+}
+
+.btn-one:hover{
+    background-color: #a12542;
+    color: white;
+}
+
+.btn-two:hover{
+    background-color: #a12542;
+    border: none;
+}
+
+
+
+#narmobile{
+    border: 1px solid red;
+    height: 500px;
+    background-color: rgb(236, 236, 236);
+}
+
+
+.narmobile-slide{
+    height: 450px;
+    width: 1220px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url(../img/connect-eSIM-desktop.png);
+    background-position: left;
+    display: flex;
+}
+
+
+
+.narmobile-slide-left h2{
+    color: white;
+    font-weight: 650;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.narmobile-slide-left h6{
+    color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.narmob-slide-left-btn{
+    height: 57px;
+    width: 140px;
+    border-radius: 25px;
+    background-color: white;
+    color: #d5375c;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-left: 13px;
+    transition: all 0.4s ease;
+}
+
+.narmob-slide-left-btn:hover{
+    background-color: #a12542;
+    color: white;
+}
+
+
+.narmobile-slide-right{
+    height: 260px;
+    width: 360px;
+    background: url(../img/Sim.png);
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+
+#application{
+    height: 570px;
+    border: 1px solid brown;
+    background-color: rgb(236, 236, 236);
+}
+
+.application-header h2{
+    font-size: 45px;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    margin-left: 115px;
+}
+
+
+.cart-one{
+    height: 450px;
+    width: 400px;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    background-color: white;
+}
+
+.cart-one-title{
+    display: flex;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+}
+
+
+.cart-one-title h2{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cart-one-text h5{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.cart-one-button{
+    height: 90px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+}
+
+.cart-one-button-left{
+    height: 50px;
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: #d5375c;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all 0.4s ease;
+}
+
+.cart-one-button-left:hover{
+    background-color: #a12542;
+}
+
+.cart-one-button-right{
+    height: 50px;
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 7px;
+    border-radius: 25px;
+    border: 1px solid #d5375c;
+    background-color: white;
+    font-weight: 600;
+    font-size: 17px;
+    transition: all 0.4s ease;
+    color: #d5375c;
+}
+
+
+.cart-one-ended{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7%;
+}
+
+.cart-one-end-image{
+    margin-top: 30px;
+    height: 170px;
+    width: 250px;
+    /* border: 1px solid black; */
+    background: url(../img/Fluent_w_9t8GBD1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-flex;
+}
+
+
+.cart-one-end-discount{
+    height: 150px;
+    width: 150px;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    top: 50%;
+    left: 75%;
+    position: absolute;
+    background-color: #a0d9a9;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+
+.cart-one-end-discount h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.cart-two{
+    height: 450px;
+    width: 400px;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    background-color: white;
+}
+
+.cart-two-title{
+    display: flex;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+}
+
+
+.cart-two-title h2{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cart-two-text h5{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.cart-two-button{
+    height: 90px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+}
+
+.cart-two-button-left{
+    height: 50px;
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: #d5375c;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all 0.4s ease;
+}
+
+.cart-two-button-left:hover{
+    background-color: #a12542;
+}
+
+.cart-two-button-right{
+    height: 50px;
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 7px;
+    border-radius: 25px;
+    border: 1px solid #d5375c;
+    background-color: white;
+    font-weight: 600;
+    font-size: 17px;
+    transition: all 0.4s ease;
+    color: #d5375c;
+}
+
+
+.cart-two-ended{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7%;
+}
+
+.cart-two-end-image{
+    margin-top: 30px;
+    height: 170px;
+    width: 250px;
+    /* border: 1px solid black; */
+    background: url(../img/lingo_Kxlfpst.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-flex;
+}
+
+
+.cart-two-end-discount{
+    height: 150px;
+    width: 150px;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    top: 50%;
+    left: 75%;
+    position: absolute;
+    background-color: #a0d9a9;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+
+.cart-two-end-discount h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+#nar-esim{
+    height: 500px;
+    background-color: rgb(236, 236, 236);
+}
+
+
+.nar-esim-slide{
+    height: 450px;
+    width: 1280px;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    margin-top: 30px;
+    background: url(../img/connect-eSIM-desktop.png);
+    background-position: center;
+    display: flex;
+}
+
+
+.esim-left{
+    height: 450px;
+    width: 600px;
+    /* border: 1px solid black; */
+}
+
+.esim-left h2{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'ALSSchlangesans',sans-serif;
+    color: white;
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+.esim-left h5{
+    color: white;
+    font-family: 'ALSSchlangesans',sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+
+.esim-left-btn{
+    height: 50px;
+    width: 170px;
+    margin-top: 200px;
+    margin-left: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: #d5375c;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all 0.4s ease;
+}
+
+.esim-left-btn:hover{
+    background-color: #a12542;
+    color: white;
+}
+
+
+.esim-right{
+    height: 450px;
+    width: 600px;
+    border: 1px solid #d5375c;
+    background: url(../img/iphone.f146188f.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.esim-right h3{
+    color: white;
+    font-size: 80px;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+
+#news{
+    height: 580px;
+    background-color: rgb(236, 236, 236);
+}
+
+
+
+.news-header h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 100px;
+    padding-top: 45px;
+}
+
+
+
+.news-cart-one{
+    height: 470px;
+    width: 410px;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+.news-cart-img{
+    height: 200px;
+    /* border: 1px solid black; */
+    background: url(../img/image_\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.news-cart-one-date h5{
+    color: #d5375c;
+    font-size: 15px;
+    font-weight: 750;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.news-cart-one-date h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.news-cart-one-date h6{
+    color: gray;
+    font-weight: 200;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+
+.news-cart-one-button{
+    border: 1px solid #d5375c;
+    background-color: white;
+    color: #d5375c;
+    border-radius: 25px;
+    height: 50px;
+    width: 370px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+.news-cart-two{
+    height: 470px;
+    width: 410px;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 30px;
+}
+
+.news-cart-two-date h5{
+    color: #d5375c;
+    font-size: 15px;
+    font-weight: 750;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.news-cart-two-date h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.news-cart-two-date h6{
+    color: gray;
+    font-weight: 200;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.news-cart-two-button{
+    border: 1px solid #d5375c;
+    background-color: white;
+    color: #d5375c;
+    border-radius: 25px;
+    height: 50px;
+    width: 370px;
+    margin-top: 48px;
+    margin-left: 17px;
+}
+
+.news-cart-three{
+    height: 470px;
+    width: 410px;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 30px;
+}
+
+.news-cart-three-date h5{
+    color: #d5375c;
+    font-size: 15px;
+    font-weight: 750;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.news-cart-three-date h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.news-cart-three-date h6{
+    color: gray;
+    font-weight: 200;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.news-cart-three-button{
+    border: 1px solid #d5375c;
+    background-color: white;
+    color: #d5375c;
+    border-radius: 25px;
+    height: 50px;
+    width: 370px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+
+
+#ending{
+    height: 650px;
+    background-color: #333132;
+}
